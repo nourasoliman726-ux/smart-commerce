@@ -90,7 +90,7 @@ export default function DashboardPage() {
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm<ProductFormData>({ resolver: zodResolver(productSchema) });
+  } = useForm<ProductFormData>({ resolver: zodResolver(productSchema) as any });
 
   const openModal = (product?: Product) => {
     if (product) {
