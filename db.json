@@ -1,0 +1,505 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmed Mohamed",
+      "email": "ahmed@test.com",
+      "password": "123456",
+      "role": "admin",
+      "interests": [
+        "electronics",
+        "sports"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sara Ali",
+      "email": "sara@test.com",
+      "password": "123456",
+      "role": "user",
+      "interests": [
+        "clothing",
+        "home"
+      ]
+    },
+    {
+      "id": "0SmZLD0uTzk",
+      "name": "Noura Soliman",
+      "email": "nourasoliman726@gmail.com",
+      "password": "1234567",
+      "role": "user",
+      "interests": []
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro",
+      "description": "Latest Apple smartphone with titanium design",
+      "price": 999,
+      "originalPrice": 1199,
+      "category": "electronics",
+      "rating": 4.8,
+      "reviewsCount": 2341,
+      "stock": 15,
+      "images": [
+        "https://picsum.photos/seed/iphone/400/400"
+      ],
+      "tags": [
+        "apple",
+        "smartphone",
+        "5g"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Samsung 4K TV 55\"",
+      "description": "Crystal clear 4K display with smart features",
+      "price": 750,
+      "originalPrice": 999,
+      "category": "electronics",
+      "rating": 4.6,
+      "reviewsCount": 1205,
+      "stock": 8,
+      "images": [
+        "https://picsum.photos/seed/tv/400/400"
+      ],
+      "tags": [
+        "samsung",
+        "tv",
+        "4k"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Nike Air Max 2024",
+      "description": "Premium running shoes with air cushioning",
+      "price": 180,
+      "originalPrice": 220,
+      "category": "sports",
+      "rating": 4.5,
+      "reviewsCount": 876,
+      "stock": 30,
+      "images": [
+        "https://picsum.photos/seed/nike/400/400"
+      ],
+      "tags": [
+        "nike",
+        "shoes",
+        "running"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Levi's Classic Jeans",
+      "description": "Timeless denim jeans for everyday wear",
+      "price": 89,
+      "originalPrice": 120,
+      "category": "clothing",
+      "rating": 4.3,
+      "reviewsCount": 543,
+      "stock": 50,
+      "images": [
+        "https://picsum.photos/seed/jeans/400/400"
+      ],
+      "tags": [
+        "levis",
+        "denim",
+        "casual"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "MacBook Pro M3",
+      "description": "Powerful laptop for professionals",
+      "price": 1999,
+      "originalPrice": 2199,
+      "category": "electronics",
+      "rating": 4.9,
+      "reviewsCount": 3102,
+      "stock": 5,
+      "images": [
+        "https://picsum.photos/seed/macbook/400/400"
+      ],
+      "tags": [
+        "apple",
+        "laptop",
+        "m3"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Atomic Habits",
+      "description": "Build good habits and break bad ones",
+      "price": 18,
+      "originalPrice": 25,
+      "category": "books",
+      "rating": 4.9,
+      "reviewsCount": 8723,
+      "stock": 100,
+      "images": [
+        "https://picsum.photos/seed/book/400/400"
+      ],
+      "tags": [
+        "self-help",
+        "habits",
+        "productivity"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Coffee Table Modern",
+      "description": "Minimalist wooden coffee table",
+      "price": 299,
+      "originalPrice": 399,
+      "category": "home",
+      "rating": 4.4,
+      "reviewsCount": 234,
+      "stock": 12,
+      "images": [
+        "https://picsum.photos/seed/table/400/400"
+      ],
+      "tags": [
+        "furniture",
+        "modern",
+        "wood"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Sony WH-1000XM5",
+      "description": "Industry-leading noise cancelling headphones",
+      "price": 350,
+      "originalPrice": 400,
+      "category": "electronics",
+      "rating": 4.7,
+      "reviewsCount": 1876,
+      "stock": 20,
+      "images": [
+        "https://picsum.photos/seed/headphones/400/400"
+      ],
+      "tags": [
+        "sony",
+        "headphones",
+        "anc"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Yoga Mat Premium",
+      "description": "Non-slip eco-friendly yoga mat",
+      "price": 45,
+      "originalPrice": 65,
+      "category": "sports",
+      "rating": 4.6,
+      "reviewsCount": 412,
+      "stock": 45,
+      "images": [
+        "https://picsum.photos/seed/yoga/400/400"
+      ],
+      "tags": [
+        "yoga",
+        "fitness",
+        "eco"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Winter Jacket Pro",
+      "description": "Waterproof insulated winter jacket",
+      "price": 220,
+      "originalPrice": 280,
+      "category": "clothing",
+      "rating": 4.5,
+      "reviewsCount": 678,
+      "stock": 25,
+      "images": [
+        "https://picsum.photos/seed/jacket/400/400"
+      ],
+      "tags": [
+        "winter",
+        "jacket",
+        "waterproof"
+      ]
+    },
+    {
+      "name": "SonicLeap Ultra-X Wireless",
+      "description": "Experience pure silence with industry-leading noise cancellation. Features 40-hour battery life, spatial audio, and premium memory foam ear cups for all-day comfort.",
+      "price": 299,
+      "originalPrice": 399,
+      "category": "electronics",
+      "stock": 2,
+      "rating": 4.2,
+      "reviewsCount": 4,
+      "images": [
+        "https://picsum.photos/seed/1774635341927/400/400"
+      ],
+      "tags": [],
+      "id": "f9zlfCXmeEg"
+    },
+    {
+      "name": "Zenith Smartwatch Pro",
+      "description": "Wearables\n\nDescription (English): Your ultimate fitness companion. Track your heart rate, sleep quality, and GPS routes in real-time. Water-resistant up to 50m with a stunning AMOLED display.",
+      "price": 599,
+      "originalPrice": 899,
+      "category": "home",
+      "stock": 6,
+      "rating": 4.3,
+      "reviewsCount": 10,
+      "images": [
+        "https://picsum.photos/seed/1774635523482/400/400"
+      ],
+      "tags": [],
+      "id": "aZCqRJZk-y0"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "0SmZLD0uTzk",
+      "items": [
+        {
+          "product": {
+            "id": "6",
+            "name": "Atomic Habits",
+            "description": "Build good habits and break bad ones",
+            "price": 18,
+            "originalPrice": 25,
+            "category": "books",
+            "rating": 4.9,
+            "reviewsCount": 8723,
+            "stock": 100,
+            "images": [
+              "https://picsum.photos/seed/book/400/400"
+            ],
+            "tags": [
+              "self-help",
+              "habits",
+              "productivity"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "5",
+            "name": "MacBook Pro M3",
+            "description": "Powerful laptop for professionals",
+            "price": 1999,
+            "originalPrice": 2199,
+            "category": "electronics",
+            "rating": 4.9,
+            "reviewsCount": 3102,
+            "stock": 5,
+            "images": [
+              "https://picsum.photos/seed/macbook/400/400"
+            ],
+            "tags": [
+              "apple",
+              "laptop",
+              "m3"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "1",
+            "name": "iPhone 15 Pro",
+            "description": "Latest Apple smartphone with titanium design",
+            "price": 999,
+            "originalPrice": 1199,
+            "category": "electronics",
+            "rating": 4.8,
+            "reviewsCount": 2341,
+            "stock": 15,
+            "images": [
+              "https://picsum.photos/seed/iphone/400/400"
+            ],
+            "tags": [
+              "apple",
+              "smartphone",
+              "5g"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "8",
+            "name": "Sony WH-1000XM5",
+            "description": "Industry-leading noise cancelling headphones",
+            "price": 350,
+            "originalPrice": 400,
+            "category": "electronics",
+            "rating": 4.7,
+            "reviewsCount": 1876,
+            "stock": 20,
+            "images": [
+              "https://picsum.photos/seed/headphones/400/400"
+            ],
+            "tags": [
+              "sony",
+              "headphones",
+              "anc"
+            ]
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 3366,
+      "status": "pending",
+      "createdAt": "2026-03-27T17:54:13.536Z",
+      "shippingAddress": {
+        "fullName": "Noura Soliman",
+        "email": "nourasoliman726@gmail.com",
+        "phone": "+201098981018",
+        "address": "البحيره مركز دمنهور",
+        "city": "دمنهور"
+      },
+      "id": "_YPiz_cy4ZE"
+    },
+    {
+      "userId": "0SmZLD0uTzk",
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "iPhone 15 Pro",
+            "description": "Latest Apple smartphone with titanium design",
+            "price": 999,
+            "originalPrice": 1199,
+            "category": "electronics",
+            "rating": 4.8,
+            "reviewsCount": 2341,
+            "stock": 15,
+            "images": [
+              "https://picsum.photos/seed/iphone/400/400"
+            ],
+            "tags": [
+              "apple",
+              "smartphone",
+              "5g"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "2",
+            "name": "Samsung 4K TV 55\"",
+            "description": "Crystal clear 4K display with smart features",
+            "price": 750,
+            "originalPrice": 999,
+            "category": "electronics",
+            "rating": 4.6,
+            "reviewsCount": 1205,
+            "stock": 8,
+            "images": [
+              "https://picsum.photos/seed/tv/400/400"
+            ],
+            "tags": [
+              "samsung",
+              "tv",
+              "4k"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "3",
+            "name": "Nike Air Max 2024",
+            "description": "Premium running shoes with air cushioning",
+            "price": 180,
+            "originalPrice": 220,
+            "category": "sports",
+            "rating": 4.5,
+            "reviewsCount": 876,
+            "stock": 30,
+            "images": [
+              "https://picsum.photos/seed/nike/400/400"
+            ],
+            "tags": [
+              "nike",
+              "shoes",
+              "running"
+            ]
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 1929,
+      "status": "pending",
+      "createdAt": "2026-03-27T17:56:16.288Z",
+      "shippingAddress": {
+        "fullName": "Noura Soliman",
+        "email": "nourasoliman726@gmail.com",
+        "phone": "+201093814849",
+        "address": "شارع سليمان قرية متولى",
+        "city": "دمنهور"
+      },
+      "id": "4O_5aqvQn7A"
+    },
+    {
+      "userId": "1",
+      "items": [
+        {
+          "product": {
+            "id": "6",
+            "name": "Atomic Habits",
+            "description": "Build good habits and break bad ones",
+            "price": 18,
+            "originalPrice": 25,
+            "category": "books",
+            "rating": 4.9,
+            "reviewsCount": 8723,
+            "stock": 100,
+            "images": [
+              "https://picsum.photos/seed/book/400/400"
+            ],
+            "tags": [
+              "self-help",
+              "habits",
+              "productivity"
+            ]
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "3",
+            "name": "Nike Air Max 2024",
+            "description": "Premium running shoes with air cushioning",
+            "price": 180,
+            "originalPrice": 220,
+            "category": "sports",
+            "rating": 4.5,
+            "reviewsCount": 876,
+            "stock": 30,
+            "images": [
+              "https://picsum.photos/seed/nike/400/400"
+            ],
+            "tags": [
+              "nike",
+              "shoes",
+              "running"
+            ]
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 198,
+      "status": "pending",
+      "createdAt": "2026-03-27T18:32:29.304Z",
+      "shippingAddress": {
+        "fullName": "Ahmed Mohamed",
+        "email": "ahmed@test.com",
+        "phone": "+201093814849",
+        "address": "شارع سليمان قرية متولى",
+        "city": "دمنهور"
+      },
+      "id": "bUQHMf2xVuc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
