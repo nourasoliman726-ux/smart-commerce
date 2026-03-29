@@ -5,10 +5,6 @@ import {
   Mail,
   Phone,
   MapPin,
-  Heart,
-  X,
-  GitBranch as GithubIcon,
-  Play,
 } from "lucide-react";
 
 export default function Footer() {
@@ -30,12 +26,11 @@ export default function Footer() {
     "Privacy Policy",
   ];
 
-  const socialIcons = [Mail, Mail, Mail];
+  const socialIcons = [Mail, Mail, Mail, Mail];
 
   return (
     <footer
-      className="mt-20"
-      style={{ backgroundColor: "var(--brown, #3d2b1f)" }}
+     className="mt-20 bg-slate-900 border-t border-white/10"
     >
       {/* Newsletter */}
       <div className="border-b border-white/10">
@@ -53,9 +48,9 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="your@email.com"
-                className="flex-1 md:w-72 bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-white placeholder-white/30 focus:outline-none focus:border-[#c9a84c] transition-all text-sm"
+                className="flex-1 md:w-72 bg-white/10 border border-white/10 rounded-xl px-4 py-2.5 text-white placeholder-white/30 focus:outline-none focus:border-purple-500 transition-all text-sm"
               />
-              <button className="bg-[#c9a84c] hover:bg-[#9a7a2e] text-white font-semibold px-5 py-2.5 rounded-xl transition-all text-sm whitespace-nowrap">
+              <button className="bg-purple-600 hover:bg-purple-500 text-white font-semibold px-5 py-2.5 rounded-xl transition-all text-sm whitespace-nowrap">
                 Subscribe
               </button>
             </div>
@@ -69,11 +64,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 bg-[#c9a84c] rounded-xl flex items-center justify-center">
+              <div className="w-9 h-9 bg-purple-600 rounded-xl flex items-center justify-center">
                 <ShoppingBag size={18} className="text-white" />
               </div>
               <span className="text-white font-bold text-lg">
-                Luxe<span className="text-[#c9a84c]">Store</span>
+                Smart<span className="text-purple-400">Commerce</span>
               </span>
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
@@ -85,9 +80,9 @@ export default function Footer() {
                 <a
                   key={i}
                   href="#"
-                  className="w-9 h-9 bg-white/10 hover:bg-[#c9a84c] rounded-lg flex items-center justify-center transition-all"
+                  className="w-9 h-9 bg-white/10 hover:bg-purple-600 rounded-lg flex items-center justify-center transition-all"
                 >
-                  <Icon size={16} className="text-white" />
+                  <Icon size={16} className="text-white/60 hover:text-white" />
                 </a>
               ))}
             </div>
@@ -101,7 +96,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     to={link.path}
-                    className="text-white/50 hover:text-[#c9a84c] text-sm transition-colors"
+                    className="text-white/50 hover:text-purple-400 text-sm transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -118,7 +113,7 @@ export default function Footer() {
                 <li key={item}>
                   <a
                     href="#"
-                    className="text-white/50 hover:text-[#c9a84c] text-sm transition-colors"
+                    className="text-white/50 hover:text-purple-400 text-sm transition-colors"
                   >
                     {item}
                   </a>
@@ -132,7 +127,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-5">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="text-[#c9a84c] mt-0.5 shrink-0" />
+                <MapPin size={16} className="text-purple-400 mt-0.5 shrink-0" />
                 <span className="text-white/50 text-sm">
                   123 Luxury Ave, Suite 100
                   <br />
@@ -140,13 +135,13 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={16} className="text-[#c9a84c] shrink-0" />
+                <Phone size={16} className="text-purple-400 shrink-0" />
                 <span className="text-white/50 text-sm">+1 (123) 456-7890</span>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={16} className="text-[#c9a84c] shrink-0" />
+                <Mail size={16} className="text-purple-400 shrink-0" />
                 <span className="text-white/50 text-sm">
-                  hello@luxestore.com
+                  hello@smartcommerce.com
                 </span>
               </li>
             </ul>
@@ -168,7 +163,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-white/30 text-sm">
-              © {year} LuxeStore. All rights reserved.
+              © {year} SmartCommerce. All rights reserved.
             </p>
             <div className="flex items-center gap-2">
               {["VISA", "MC", "PAYPAL", "AMEX"].map((card) => (
