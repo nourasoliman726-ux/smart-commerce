@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import {
   ShoppingBag,
   Mail,
@@ -29,8 +30,13 @@ export default function Footer() {
     "Privacy Policy",
   ];
 
+  const socialIcons = [Mail, Mail, Mail];
+
   return (
-    <footer className="bg-[#3d2b1f] mt-20">
+    <footer
+      className="mt-20"
+      style={{ backgroundColor: "var(--brown, #3d2b1f)" }}
+    >
       {/* Newsletter */}
       <div className="border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -75,7 +81,7 @@ export default function Footer() {
               from the world's finest brands.
             </p>
             <div className="flex gap-3">
-              {[Heart, X, GithubIcon, Play].map((Icon, i) => (
+              {socialIcons.map((Icon, i) => (
                 <a
                   key={i}
                   href="#"
@@ -144,7 +150,6 @@ export default function Footer() {
                 </span>
               </li>
             </ul>
-
             <div className="mt-6 bg-white/5 border border-white/10 rounded-xl p-4">
               <p className="text-white/70 text-xs font-semibold mb-2">
                 Working Hours
