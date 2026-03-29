@@ -6,10 +6,7 @@
       "email": "ahmed@test.com",
       "password": "123456",
       "role": "admin",
-      "interests": [
-        "electronics",
-        "sports"
-      ]
+      "interests": ["electronics", "fashion"]
     },
     {
       "id": "2",
@@ -17,489 +14,296 @@
       "email": "sara@test.com",
       "password": "123456",
       "role": "user",
-      "interests": [
-        "clothing",
-        "home"
-      ]
-    },
-    {
-      "id": "0SmZLD0uTzk",
-      "name": "Noura Soliman",
-      "email": "nourasoliman726@gmail.com",
-      "password": "1234567",
-      "role": "user",
-      "interests": []
+      "interests": ["beauty", "home"]
     }
   ],
   "products": [
     {
       "id": "1",
-      "name": "iPhone 15 Pro",
-      "description": "Latest Apple smartphone with titanium design",
-      "price": 999,
-      "originalPrice": 1199,
+      "name": "Apple iPhone 15 Pro Max",
+      "description": "The most powerful iPhone ever. Titanium design, A17 Pro chip, and a 48MP camera system that redefines mobile photography.",
+      "price": 1199,
+      "originalPrice": 1399,
       "category": "electronics",
-      "rating": 4.8,
-      "reviewsCount": 2341,
-      "stock": 15,
-      "images": [
-        "https://picsum.photos/seed/iphone/400/400"
-      ],
-      "tags": [
-        "apple",
-        "smartphone",
-        "5g"
-      ]
+      "rating": 4.9,
+      "reviewsCount": 4821,
+      "stock": 12,
+      "images": ["https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&q=80"],
+      "tags": ["apple", "iphone", "5g", "titanium"]
     },
     {
       "id": "2",
-      "name": "Samsung 4K TV 55\"",
-      "description": "Crystal clear 4K display with smart features",
-      "price": 750,
-      "originalPrice": 999,
+      "name": "Sony WH-1000XM5 Headphones",
+      "description": "Industry-leading noise cancellation with 30-hour battery life. Crystal clear calls and Alexa built-in.",
+      "price": 329,
+      "originalPrice": 399,
       "category": "electronics",
-      "rating": 4.6,
-      "reviewsCount": 1205,
-      "stock": 8,
-      "images": [
-        "https://picsum.photos/seed/tv/400/400"
-      ],
-      "tags": [
-        "samsung",
-        "tv",
-        "4k"
-      ]
+      "rating": 4.8,
+      "reviewsCount": 3102,
+      "stock": 25,
+      "images": ["https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&q=80"],
+      "tags": ["sony", "headphones", "noise-cancelling", "wireless"]
     },
     {
       "id": "3",
-      "name": "Nike Air Max 2024",
-      "description": "Premium running shoes with air cushioning",
-      "price": 180,
-      "originalPrice": 220,
-      "category": "sports",
-      "rating": 4.5,
-      "reviewsCount": 876,
-      "stock": 30,
-      "images": [
-        "https://picsum.photos/seed/nike/400/400"
-      ],
-      "tags": [
-        "nike",
-        "shoes",
-        "running"
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Levi's Classic Jeans",
-      "description": "Timeless denim jeans for everyday wear",
-      "price": 89,
-      "originalPrice": 120,
-      "category": "clothing",
-      "rating": 4.3,
-      "reviewsCount": 543,
-      "stock": 50,
-      "images": [
-        "https://picsum.photos/seed/jeans/400/400"
-      ],
-      "tags": [
-        "levis",
-        "denim",
-        "casual"
-      ]
-    },
-    {
-      "id": "5",
-      "name": "MacBook Pro M3",
-      "description": "Powerful laptop for professionals",
+      "name": "MacBook Pro 14 M3 Pro",
+      "description": "Supercharged by M3 Pro chip. Up to 18 hours battery, Liquid Retina XDR display, and MagSafe charging.",
       "price": 1999,
       "originalPrice": 2199,
       "category": "electronics",
       "rating": 4.9,
-      "reviewsCount": 3102,
-      "stock": 5,
-      "images": [
-        "https://picsum.photos/seed/macbook/400/400"
-      ],
-      "tags": [
-        "apple",
-        "laptop",
-        "m3"
-      ]
+      "reviewsCount": 2765,
+      "stock": 7,
+      "images": ["https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80"],
+      "tags": ["apple", "macbook", "laptop", "m3"]
+    },
+    {
+      "id": "4",
+      "name": "Samsung 65 QLED 4K TV",
+      "description": "Quantum HDR with Neo Quantum Processor 4K. Immersive picture quality with deep blacks and vivid colors.",
+      "price": 1299,
+      "originalPrice": 1799,
+      "category": "electronics",
+      "rating": 4.7,
+      "reviewsCount": 1543,
+      "stock": 9,
+      "images": ["https://images.unsplash.com/photo-1593359677879-a4bb92f4834a?w=600&q=80"],
+      "tags": ["samsung", "tv", "4k", "qled"]
+    },
+    {
+      "id": "5",
+      "name": "iPad Pro 12.9 M2",
+      "description": "The ultimate iPad experience with M2 chip, Liquid Retina XDR display, and support for Apple Pencil.",
+      "price": 1099,
+      "originalPrice": 1299,
+      "category": "electronics",
+      "rating": 4.8,
+      "reviewsCount": 2103,
+      "stock": 14,
+      "images": ["https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80"],
+      "tags": ["apple", "ipad", "tablet", "m2"]
     },
     {
       "id": "6",
-      "name": "Atomic Habits",
-      "description": "Build good habits and break bad ones",
-      "price": 18,
-      "originalPrice": 25,
-      "category": "books",
-      "rating": 4.9,
-      "reviewsCount": 8723,
-      "stock": 100,
-      "images": [
-        "https://picsum.photos/seed/book/400/400"
-      ],
-      "tags": [
-        "self-help",
-        "habits",
-        "productivity"
-      ]
+      "name": "Canon EOS R50 Camera",
+      "description": "Compact mirrorless camera with 24.2MP sensor. Perfect for content creators and photography enthusiasts.",
+      "price": 699,
+      "originalPrice": 879,
+      "category": "electronics",
+      "rating": 4.7,
+      "reviewsCount": 987,
+      "stock": 11,
+      "images": ["https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&q=80"],
+      "tags": ["canon", "camera", "mirrorless", "photography"]
     },
     {
       "id": "7",
-      "name": "Coffee Table Modern",
-      "description": "Minimalist wooden coffee table",
-      "price": 299,
-      "originalPrice": 399,
-      "category": "home",
-      "rating": 4.4,
-      "reviewsCount": 234,
-      "stock": 12,
-      "images": [
-        "https://picsum.photos/seed/table/400/400"
-      ],
-      "tags": [
-        "furniture",
-        "modern",
-        "wood"
-      ]
+      "name": "Luxury Silk Evening Dress",
+      "description": "Elegant floor-length silk dress with delicate embroidery. Perfect for formal occasions and galas.",
+      "price": 485,
+      "originalPrice": 650,
+      "category": "fashion",
+      "rating": 4.8,
+      "reviewsCount": 892,
+      "stock": 18,
+      "images": ["https://images.unsplash.com/photo-1566479179817-c0a5a4c4feef?w=600&q=80"],
+      "tags": ["silk", "evening", "luxury", "formal"]
     },
     {
       "id": "8",
-      "name": "Sony WH-1000XM5",
-      "description": "Industry-leading noise cancelling headphones",
-      "price": 350,
-      "originalPrice": 400,
-      "category": "electronics",
+      "name": "Classic Leather Handbag",
+      "description": "Handcrafted Italian leather handbag with gold hardware. Spacious interior with multiple compartments.",
+      "price": 349,
+      "originalPrice": 450,
+      "category": "fashion",
       "rating": 4.7,
-      "reviewsCount": 1876,
-      "stock": 20,
-      "images": [
-        "https://picsum.photos/seed/headphones/400/400"
-      ],
-      "tags": [
-        "sony",
-        "headphones",
-        "anc"
-      ]
+      "reviewsCount": 1204,
+      "stock": 22,
+      "images": ["https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"],
+      "tags": ["leather", "handbag", "italian", "luxury"]
     },
     {
       "id": "9",
-      "name": "Yoga Mat Premium",
-      "description": "Non-slip eco-friendly yoga mat",
-      "price": 45,
-      "originalPrice": 65,
-      "category": "sports",
+      "name": "Men's Slim Fit Wool Suit",
+      "description": "Premium merino wool blend suit with satin lining. Available in charcoal grey. Perfect for business and formal events.",
+      "price": 599,
+      "originalPrice": 799,
+      "category": "fashion",
       "rating": 4.6,
-      "reviewsCount": 412,
-      "stock": 45,
-      "images": [
-        "https://picsum.photos/seed/yoga/400/400"
-      ],
-      "tags": [
-        "yoga",
-        "fitness",
-        "eco"
-      ]
+      "reviewsCount": 674,
+      "stock": 15,
+      "images": ["https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"],
+      "tags": ["suit", "wool", "formal", "mens"]
     },
     {
       "id": "10",
-      "name": "Winter Jacket Pro",
-      "description": "Waterproof insulated winter jacket",
-      "price": 220,
-      "originalPrice": 280,
-      "category": "clothing",
-      "rating": 4.5,
-      "reviewsCount": 678,
-      "stock": 25,
-      "images": [
-        "https://picsum.photos/seed/jacket/400/400"
-      ],
-      "tags": [
-        "winter",
-        "jacket",
-        "waterproof"
-      ]
+      "name": "Gold Minimalist Watch",
+      "description": "Swiss-made movement with sapphire crystal glass. Rose gold case with genuine leather strap.",
+      "price": 280,
+      "originalPrice": 380,
+      "category": "fashion",
+      "rating": 4.8,
+      "reviewsCount": 2341,
+      "stock": 30,
+      "images": ["https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600&q=80"],
+      "tags": ["watch", "gold", "swiss", "luxury"]
     },
     {
-      "name": "SonicLeap Ultra-X Wireless",
-      "description": "Experience pure silence with industry-leading noise cancellation. Features 40-hour battery life, spatial audio, and premium memory foam ear cups for all-day comfort.",
-      "price": 299,
-      "originalPrice": 399,
-      "category": "electronics",
-      "stock": 2,
-      "rating": 4.2,
-      "reviewsCount": 4,
-      "images": [
-        "https://picsum.photos/seed/1774635341927/400/400"
-      ],
-      "tags": [],
-      "id": "f9zlfCXmeEg"
+      "id": "11",
+      "name": "Nike Air Max 270",
+      "description": "Lightweight and breathable running shoes with Max Air unit for all-day comfort and style.",
+      "price": 150,
+      "originalPrice": 190,
+      "category": "fashion",
+      "rating": 4.6,
+      "reviewsCount": 3421,
+      "stock": 40,
+      "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"],
+      "tags": ["nike", "shoes", "sneakers", "running"]
     },
     {
-      "name": "Zenith Smartwatch Pro",
-      "description": "Wearables\n\nDescription (English): Your ultimate fitness companion. Track your heart rate, sleep quality, and GPS routes in real-time. Water-resistant up to 50m with a stunning AMOLED display.",
-      "price": 599,
-      "originalPrice": 899,
+      "id": "12",
+      "name": "Scandinavian Linen Sofa",
+      "description": "3-seater sofa in 100% natural linen. Solid oak legs, removable washable covers. Available in sand beige.",
+      "price": 1450,
+      "originalPrice": 1800,
       "category": "home",
-      "stock": 6,
-      "rating": 4.3,
-      "reviewsCount": 10,
-      "images": [
-        "https://picsum.photos/seed/1774635523482/400/400"
-      ],
-      "tags": [],
-      "id": "aZCqRJZk-y0"
-    }
-  ],
-  "orders": [
-    {
-      "userId": "0SmZLD0uTzk",
-      "items": [
-        {
-          "product": {
-            "id": "6",
-            "name": "Atomic Habits",
-            "description": "Build good habits and break bad ones",
-            "price": 18,
-            "originalPrice": 25,
-            "category": "books",
-            "rating": 4.9,
-            "reviewsCount": 8723,
-            "stock": 100,
-            "images": [
-              "https://picsum.photos/seed/book/400/400"
-            ],
-            "tags": [
-              "self-help",
-              "habits",
-              "productivity"
-            ]
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "5",
-            "name": "MacBook Pro M3",
-            "description": "Powerful laptop for professionals",
-            "price": 1999,
-            "originalPrice": 2199,
-            "category": "electronics",
-            "rating": 4.9,
-            "reviewsCount": 3102,
-            "stock": 5,
-            "images": [
-              "https://picsum.photos/seed/macbook/400/400"
-            ],
-            "tags": [
-              "apple",
-              "laptop",
-              "m3"
-            ]
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "1",
-            "name": "iPhone 15 Pro",
-            "description": "Latest Apple smartphone with titanium design",
-            "price": 999,
-            "originalPrice": 1199,
-            "category": "electronics",
-            "rating": 4.8,
-            "reviewsCount": 2341,
-            "stock": 15,
-            "images": [
-              "https://picsum.photos/seed/iphone/400/400"
-            ],
-            "tags": [
-              "apple",
-              "smartphone",
-              "5g"
-            ]
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "8",
-            "name": "Sony WH-1000XM5",
-            "description": "Industry-leading noise cancelling headphones",
-            "price": 350,
-            "originalPrice": 400,
-            "category": "electronics",
-            "rating": 4.7,
-            "reviewsCount": 1876,
-            "stock": 20,
-            "images": [
-              "https://picsum.photos/seed/headphones/400/400"
-            ],
-            "tags": [
-              "sony",
-              "headphones",
-              "anc"
-            ]
-          },
-          "quantity": 1
-        }
-      ],
-      "total": 3366,
-      "status": "pending",
-      "createdAt": "2026-03-27T17:54:13.536Z",
-      "shippingAddress": {
-        "fullName": "Noura Soliman",
-        "email": "nourasoliman726@gmail.com",
-        "phone": "+201098981018",
-        "address": "البحيره مركز دمنهور",
-        "city": "دمنهور"
-      },
-      "id": "_YPiz_cy4ZE"
+      "rating": 4.7,
+      "reviewsCount": 543,
+      "stock": 5,
+      "images": ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"],
+      "tags": ["sofa", "linen", "scandinavian", "furniture"]
     },
     {
-      "userId": "0SmZLD0uTzk",
-      "items": [
-        {
-          "product": {
-            "id": "1",
-            "name": "iPhone 15 Pro",
-            "description": "Latest Apple smartphone with titanium design",
-            "price": 999,
-            "originalPrice": 1199,
-            "category": "electronics",
-            "rating": 4.8,
-            "reviewsCount": 2341,
-            "stock": 15,
-            "images": [
-              "https://picsum.photos/seed/iphone/400/400"
-            ],
-            "tags": [
-              "apple",
-              "smartphone",
-              "5g"
-            ]
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "2",
-            "name": "Samsung 4K TV 55\"",
-            "description": "Crystal clear 4K display with smart features",
-            "price": 750,
-            "originalPrice": 999,
-            "category": "electronics",
-            "rating": 4.6,
-            "reviewsCount": 1205,
-            "stock": 8,
-            "images": [
-              "https://picsum.photos/seed/tv/400/400"
-            ],
-            "tags": [
-              "samsung",
-              "tv",
-              "4k"
-            ]
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "3",
-            "name": "Nike Air Max 2024",
-            "description": "Premium running shoes with air cushioning",
-            "price": 180,
-            "originalPrice": 220,
-            "category": "sports",
-            "rating": 4.5,
-            "reviewsCount": 876,
-            "stock": 30,
-            "images": [
-              "https://picsum.photos/seed/nike/400/400"
-            ],
-            "tags": [
-              "nike",
-              "shoes",
-              "running"
-            ]
-          },
-          "quantity": 1
-        }
-      ],
-      "total": 1929,
-      "status": "pending",
-      "createdAt": "2026-03-27T17:56:16.288Z",
-      "shippingAddress": {
-        "fullName": "Noura Soliman",
-        "email": "nourasoliman726@gmail.com",
-        "phone": "+201093814849",
-        "address": "شارع سليمان قرية متولى",
-        "city": "دمنهور"
-      },
-      "id": "4O_5aqvQn7A"
+      "id": "13",
+      "name": "Ceramic Dinner Set 24 Pieces",
+      "description": "Hand-painted Portuguese ceramic dinnerware. Includes plates, bowls, and mugs. Dishwasher safe.",
+      "price": 189,
+      "originalPrice": 249,
+      "category": "home",
+      "rating": 4.6,
+      "reviewsCount": 876,
+      "stock": 40,
+      "images": ["https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"],
+      "tags": ["ceramic", "dinnerware", "portuguese", "kitchen"]
     },
     {
-      "userId": "1",
-      "items": [
-        {
-          "product": {
-            "id": "6",
-            "name": "Atomic Habits",
-            "description": "Build good habits and break bad ones",
-            "price": 18,
-            "originalPrice": 25,
-            "category": "books",
-            "rating": 4.9,
-            "reviewsCount": 8723,
-            "stock": 100,
-            "images": [
-              "https://picsum.photos/seed/book/400/400"
-            ],
-            "tags": [
-              "self-help",
-              "habits",
-              "productivity"
-            ]
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "3",
-            "name": "Nike Air Max 2024",
-            "description": "Premium running shoes with air cushioning",
-            "price": 180,
-            "originalPrice": 220,
-            "category": "sports",
-            "rating": 4.5,
-            "reviewsCount": 876,
-            "stock": 30,
-            "images": [
-              "https://picsum.photos/seed/nike/400/400"
-            ],
-            "tags": [
-              "nike",
-              "shoes",
-              "running"
-            ]
-          },
-          "quantity": 1
-        }
-      ],
-      "total": 198,
-      "status": "pending",
-      "createdAt": "2026-03-27T18:32:29.304Z",
-      "shippingAddress": {
-        "fullName": "Ahmed Mohamed",
-        "email": "ahmed@test.com",
-        "phone": "+201093814849",
-        "address": "شارع سليمان قرية متولى",
-        "city": "دمنهور"
-      },
-      "id": "bUQHMf2xVuc"
+      "id": "14",
+      "name": "Aromatherapy Candle Set",
+      "description": "Set of 6 luxury soy wax candles. Scents include vanilla, sandalwood, rose and jasmine. 50-hour burn time each.",
+      "price": 89,
+      "originalPrice": 120,
+      "category": "home",
+      "rating": 4.9,
+      "reviewsCount": 2109,
+      "stock": 60,
+      "images": ["https://images.unsplash.com/photo-1608181831718-f9a75d85ce2e?w=600&q=80"],
+      "tags": ["candles", "aromatherapy", "soy", "luxury"]
+    },
+    {
+      "id": "15",
+      "name": "Marble Gold Bathroom Set",
+      "description": "5-piece bathroom accessories in white marble with gold accents. Includes soap dispenser, toothbrush holder and tray.",
+      "price": 145,
+      "originalPrice": 195,
+      "category": "home",
+      "rating": 4.5,
+      "reviewsCount": 432,
+      "stock": 28,
+      "images": ["https://images.unsplash.com/photo-1620626011761-996317702782?w=600&q=80"],
+      "tags": ["marble", "gold", "bathroom", "accessories"]
+    },
+    {
+      "id": "16",
+      "name": "Wooden Coffee Table",
+      "description": "Minimalist solid oak coffee table with storage shelf. Handcrafted with natural wood finish.",
+      "price": 349,
+      "originalPrice": 449,
+      "category": "home",
+      "rating": 4.6,
+      "reviewsCount": 321,
+      "stock": 8,
+      "images": ["https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80"],
+      "tags": ["furniture", "wood", "table", "minimalist"]
+    },
+    {
+      "id": "17",
+      "name": "La Mer Moisturizing Cream",
+      "description": "The legendary Creme de la Mer. Heals and transforms skin with the miracle broth. 60ml jar.",
+      "price": 385,
+      "originalPrice": 430,
+      "category": "beauty",
+      "rating": 4.8,
+      "reviewsCount": 5632,
+      "stock": 35,
+      "images": ["https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&q=80"],
+      "tags": ["skincare", "moisturizer", "luxury", "la-mer"]
+    },
+    {
+      "id": "18",
+      "name": "Charlotte Tilbury Eyeshadow Palette",
+      "description": "The Iconic Pillow Talk eyeshadow palette. 12 universally flattering shades from soft pink to warm bronze.",
+      "price": 75,
+      "originalPrice": 90,
+      "category": "beauty",
+      "rating": 4.9,
+      "reviewsCount": 8941,
+      "stock": 45,
+      "images": ["https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&q=80"],
+      "tags": ["makeup", "eyeshadow", "palette", "luxury"]
+    },
+    {
+      "id": "19",
+      "name": "Chanel No.5 Eau de Parfum",
+      "description": "The world's most iconic fragrance. Floral aldehyde with ylang-ylang and sandalwood. 100ml.",
+      "price": 165,
+      "originalPrice": 195,
+      "category": "beauty",
+      "rating": 4.9,
+      "reviewsCount": 12430,
+      "stock": 50,
+      "images": ["https://images.unsplash.com/photo-1541643600914-78b084683702?w=600&q=80"],
+      "tags": ["perfume", "chanel", "luxury", "fragrance"]
+    },
+    {
+      "id": "20",
+      "name": "Dyson Airwrap Complete",
+      "description": "Styles, waves, curls and dries simultaneously without extreme heat. Includes 6 attachments for all hair types.",
+      "price": 599,
+      "originalPrice": 650,
+      "category": "beauty",
+      "rating": 4.7,
+      "reviewsCount": 7823,
+      "stock": 20,
+      "images": ["https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600&q=80"],
+      "tags": ["dyson", "hair", "styling", "luxury"]
+    },
+    {
+      "id": "21",
+      "name": "NARS Radiant Creamy Concealer",
+      "description": "Full-coverage concealer that brightens and smooths skin. Lightweight formula with 16-hour wear.",
+      "price": 32,
+      "originalPrice": 40,
+      "category": "beauty",
+      "rating": 4.8,
+      "reviewsCount": 6210,
+      "stock": 55,
+      "images": ["https://images.unsplash.com/photo-1631214524020-3c69ba2b6c7e?w=600&q=80"],
+      "tags": ["makeup", "concealer", "nars", "foundation"]
+    },
+    {
+      "id": "22",
+      "name": "Luxury Scented Reed Diffuser",
+      "description": "Premium home fragrance diffuser with natural rattan reeds. Fills your space with elegant oud and rose scent.",
+      "price": 65,
+      "originalPrice": 85,
+      "category": "home",
+      "rating": 4.7,
+      "reviewsCount": 743,
+      "stock": 33,
+      "images": ["https://images.unsplash.com/photo-1600612253971-57b946e0b6ee?w=600&q=80"],
+      "tags": ["fragrance", "diffuser", "home", "luxury"]
     }
   ],
-  "$schema": "./node_modules/json-server/schema.json"
+  "orders": []
 }
