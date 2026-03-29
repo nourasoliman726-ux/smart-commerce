@@ -1,5 +1,12 @@
-import api from "./axios";
 import type { Order, CartItem, ShippingAddress } from "../types";
+
+const getOrders = (): Order[] => {
+  return JSON.parse(localStorage.getItem("db_orders") || "[]");
+};
+
+const saveOrders = (orders: Order[]) => {
+  localStorage.setItem("db_orders", JSON.stringify(orders));
+};
 
 export const orderService = {
   async create(
@@ -8,7 +15,9 @@ export const orderService = {
     shippingAddress: ShippingAddress,
     total: number
   ): Promise<Order> {
-    const order: Omit<Order, "id"> = {
+    await new Promise((res) => setTimeout(res, 500));
+    const order: Order = {
+      id: Date.now().toString(),
       userId,
       items,
       total,
@@ -16,30 +25,29 @@ export const orderService = {
       createdAt: new Date().toISOString(),
       shippingAddress,
     };
-
-    const { data } = await api.post<Order>("/orders", {
-      ...order,
-      id: Date.now().toString(),
-    });
-    return data;
+    saveOrders([...getOrders(), order]);
+    return order;
   },
 
   async getByUser(userId: string): Promise<Order[]> {
-    const { data } = await api.get<Order[]>(`/orders?userId=${userId}`);
-    return data;
+    return getOrders().filter((o) => o.userId === userId);
   },
 
   async getAll(): Promise<Order[]> {
-    const { data } = await api.get<Order[]>("/orders");
-    return data;
+    await new Promise((res) => setTimeout(res, 300));
+    return getOrders();
   },
 
   async updateStatus(id: string, status: Order["status"]): Promise<Order> {
-    const { data } = await api.patch<Order>(`/orders/${id}`, { status });
-    return data;
+    const orders = getOrders();
+    const index = orders.findIndex((o) => o.id === id);
+    if (index === -1) throw new Error("Order not found");
+    orders[index] = { ...orders[index], status };
+    saveOrders(orders);
+    return orders[index];
   },
-  async deleteOrder(id: string): Promise<void> {
-  await api.delete(`/orders/${id}`);
-},
-};
 
+  async deleteOrder(id: string): Promise<void> {
+    saveOrders(getOrders().filter((o) => o.id !== id));
+  },
+};
